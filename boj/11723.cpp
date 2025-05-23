@@ -11,16 +11,6 @@
 
 using namespace std;
 
-vector<string> split(string& str, char d) {
-    stringstream ss(str);
-    string token;
-    vector<string> splited;
-    while(getline(ss, token, d)) {
-        splited.push_back(token);
-    }
-    return splited;
-}
-
 int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0); 

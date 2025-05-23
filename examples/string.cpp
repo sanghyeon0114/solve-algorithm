@@ -125,3 +125,13 @@ int main() {
 
     // split과 trim은 C++에 없으니까 구현 필요함
 }
+
+stack<string> split(string& str, char d) {
+    stringstream ss(str);
+    string token;
+    vector<string> splited;
+    while(getline(ss, token, d)) {
+        splited.push_back(token);
+    }
+    return splited;
+}
