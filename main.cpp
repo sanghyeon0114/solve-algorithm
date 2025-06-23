@@ -8,10 +8,17 @@
 #include <stack>
 #include <deque>
 #include <cmath>
+#include <unordered_map>
+#include <time.h>
 
 using namespace std;
 
 int main() {
+
+    int N;
+    cin >> N;
+    
+    cout << max_num << "\n";
 
     return 0;
 }
