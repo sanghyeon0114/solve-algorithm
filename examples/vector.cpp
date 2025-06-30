@@ -33,5 +33,10 @@ int main() {
     v.assign(5, 10); 
     // output : 10 10 10 10 10
 
-    //////////////////////////////////////////////
+    //////////////////////////////////////////////  
+
+    vector<int> num = {1,1,2,3,4,4,4};
+    sort(num.begin(), num.end());
+    num.erase(unique(num.begin(), num.end()), num.end());
+    // 중복값 제거
 }

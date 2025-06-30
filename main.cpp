@@ -1,24 +1,21 @@
 #include <iostream>
 #include <algorithm>
-#include <queue>
-#include <functional>
 #include <vector>
-#include <string>
-#include <sstream>
 #include <stack>
-#include <deque>
+#include <queue>
 #include <cmath>
-#include <unordered_map>
-#include <time.h>
+#include <deque>
 
 using namespace std;
 
-int main() {
 
-    int N;
-    cin >> N;
-    
-    cout << max_num << "\n";
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); 
+    cout.tie(0);
+
+    int A, B;
+    cin >> A >> B;
 
     return 0;
 }
