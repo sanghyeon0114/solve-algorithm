@@ -1,11 +1,5 @@
 #include <iostream>
-#include <algorithm>
 #include <vector>
-#include <stack>
-#include <queue>
-#include <cmath>
-#include <deque>
-#include <iomanip> 
 
 using namespace std;
 
@@ -14,8 +8,8 @@ int main() {
     cin.tie(0); 
     cout.tie(0);
 
-    int N, S;
-    cin >> N >> S;
-    
+    int N, M;
+    cin >> N >> M;
+
     return 0;
 }
