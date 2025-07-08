@@ -135,3 +135,9 @@ stack<string> split(string& str, char d) {
     }
     return splited;
 }
+
+string trim(string str){
+    str.erase(0, str.find_first_not_of(' '));
+    str.erase(str.find_last_not_of(' ') + 1);
+    return str;
+}
