@@ -1,5 +1,9 @@
 #include <iostream>
+#include <algorithm>
 #include <vector>
+#include <stack>
+#include <queue>
+#include <deque>
 
 using namespace std;
 
@@ -8,8 +12,6 @@ int main() {
     cin.tie(0); 
     cout.tie(0);
 
-    int N, M;
-    cin >> N >> M;
 
     return 0;
 }
