@@ -1,6 +1,5 @@
 #include <iostream>
-#include <vector>
-#include <stack>
+#include <sstream>
 
 using namespace std;
 
@@ -9,5 +8,12 @@ int main() {
     cin.tie(0); 
     cout.tie(0);
 
+    int N;
+    cin >> N;
+
+    ostringstream out;
+
+    cout << out.str();
+    
     return 0;
 }
